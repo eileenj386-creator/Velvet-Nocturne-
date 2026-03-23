@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نوكتورن مخملي</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="fog"></div> <!-- الضباب المتحرك -->
+<div id="game-container">
+  <!-- المقدمة -->
+  <div id="intro">
+    <h1>نوكتورن مخملي</h1>
+    <p>
+      هناك صمت يختبئ في الظلال، وظلال تعرف كل شيء عنك…<br>
+      هل أنت مستعد لتكشف مدى قرب روحك مني؟
+    </p>
+    <button id="start-btn">ابدأ اللعب</button>
+  </div>
+
+  <!-- اللعبة -->
+  <div id="quiz" class="hidden">
+    <h1 id="question-title"></h1>
+    <div id="answers">
+      <button id="btn-a"></button>
+      <button id="btn-b"></button>
+    </div>
+  </div>
+
+  <!-- النتيجة النهائية -->
+  <div id="result" class="hidden">
+    <h1>نتيجتك</h1>
+    <p id="score-text"></p>
+    <p id="analysis-text"></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
